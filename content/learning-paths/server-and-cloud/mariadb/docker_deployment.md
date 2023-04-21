@@ -10,10 +10,10 @@ layout: "learningpathall"
 
 ##  Install MariaDB in a Docker container 
 
-You can deploy MariaDB in a Docker container using Ansible. 
+You can deploy [MariaDB](https://mariadb.org/) in a Docker container using Ansible. 
 
 ## Before you begin
-The required tools for this section are, You will need a computer which has [Ansible](/install-guides/ansible/). installed. You can use the same SSH key pair. You also need a cloud instance or VM, or a physical machine with Ubuntu installed, running and ready to deploy MariaDB.
+For this section you will need a computer which has [Ansible](/install-guides/ansible/) installed. You can use the same SSH key pair. You also need a cloud instance or VM, or a physical machine with Ubuntu installed, running and ready to deploy MariaDB.
  
  
 ## Deploy a MariaDB container using Ansible
