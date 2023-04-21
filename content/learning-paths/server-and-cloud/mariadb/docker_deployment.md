@@ -13,7 +13,7 @@ layout: "learningpathall"
 You can deploy MariaDB in a Docker container using Ansible. 
 
 ## Before you begin
-The required tools for this section are, You will need a computer which has Ansible [Ansible](/install-guides/ansible/). installed. You can use the same SSH key pair. You also need a cloud instance or VM, or a physical machine with Ubuntu installed, running and ready to deploy MariaDB.
+The required tools for this section are, You will need a computer which has [Ansible](/install-guides/ansible/). installed. You can use the same SSH key pair. You also need a cloud instance or VM, or a physical machine with Ubuntu installed, running and ready to deploy MariaDB.
  
  
 ## Deploy a MariaDB container using Ansible
@@ -75,7 +75,7 @@ Replace **{{your_mariadb_password}}** with your own password.
 
 Also, replace **{{dockerhub_uname}}** and **{{dockerhub_pass}}** with your [Docker Hub](https://hub.docker.com/) credentials.
 
-3. Create a `inventory.txt` file and copy contents below:
+3. Create a `inventory.txt` file and copy the contents given below:
 ```ansible
 [all]
 ansible-target1 ansible_connection=ssh ansible_host={{public_ip_of_VM}} ansible_user={{user_of_VM}}
@@ -128,5 +128,4 @@ ansible-target1            : ok=3    changed=4    unreachable=0    failed=0    s
 ## Connect to Database using your local machine
 
 You can use the instructions from the previous topic to [connect to the database](/learning-paths/server-and-cloud/mariadb/ec2_deployment#connect-to-database-from-local-machine) and confirm the Docker container deployment is working. 
-
 
