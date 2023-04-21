@@ -78,11 +78,11 @@ Also, replace **{{dockerhub_uname}}** and **{{dockerhub_pass}}** with your [Dock
 3. Create a `inventory.txt` file and copy the contents given below:
 ```ansible
 [all]
-ansible-target1 ansible_connection=ssh ansible_host={{public_ip_of_VM}} ansible_user={{user_of_VM}}
+ansible-target1 ansible_connection=ssh ansible_host={{public_ip of VM where MariaDB to be deployed}} ansible_user={{user_of VM where MariaDB to be deployed}}
 ```
 4. Edit `inventory.txt` to use your values 
 
-Replace **{{public_ip_of_VM}}** and **{{user_of_VM}}** with your own values.
+Replace **{{public_ip of VM where MariaDB to be deployed}}** and **{{user_of VM where MariaDB to be deployed}}** with your own values.
 
 {{% notice Note %} You can use your own inventory file {{% /notice %}}
 
