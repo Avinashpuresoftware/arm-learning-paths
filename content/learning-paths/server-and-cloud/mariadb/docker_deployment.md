@@ -85,7 +85,7 @@ ansible-target1 ansible_connection=ssh ansible_host={{public_ip of VM where Mari
 
 Replace **{{public_ip of VM where MariaDB to be deployed}}** and **{{user_of VM where MariaDB to be deployed}}** with your own values.
 
-{{% notice Note %}} You can use your own inventory file {{% /notice %}}
+{{% notice Note %}} You can use your own inventory file. {{% /notice %}}
 
 ### Ansible Commands
 
